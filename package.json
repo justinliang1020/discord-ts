@@ -1,0 +1,25 @@
+{
+  "name": "discord-ts",
+  "version": "1.0.0",
+  "description": "Railway Template for a Discord bot using typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "npm run build && node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.38.0",
+    "nodemon": "^2.0.22"
+  }
+}
